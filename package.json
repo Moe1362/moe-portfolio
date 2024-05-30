@@ -1,0 +1,39 @@
+{
+  "name": "mohammad-pprtfolio",
+  "version": "1.0.0",
+  "description": "Mohammad's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Moe1362"
+  },
+  "keywords": [],
+  "author": "Mohammad Abbasi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bootstrap": "^4.6.2",
+    "gh-pages": "^6.1.1",
+    "react-bootstrap": "^2.10.2",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
