@@ -60,7 +60,7 @@ export default function Resume() {
   const backendSkills = [
     "Node.js",
     "Express.js",
-    "MongoDB",
+    "Mongoose",
     "Python",
     "MySql",
     "MongoDB",
