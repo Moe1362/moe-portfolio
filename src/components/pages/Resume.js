@@ -50,7 +50,7 @@ const handleDownload = () => {
   const link = document.createElement("a");
   link.href = fileUrl;
   link.target = "_blank"; // Open the PDF file in a new tab
-  link.download = "Mohammad Abbasi.pdf"; // Set the default file name
+  link.download = "Mohammad.pdf"; // Set the default file name
 
   // Trigger the download by programmatically clicking the link
   link.click();
