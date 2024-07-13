@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../assets/MoeResume.pdf";
+import resume from "../../assets/abbasiresumepdf.pdf";
 import downloadImg from "../../assets/download.png";
 const styles = {
   h1: {
